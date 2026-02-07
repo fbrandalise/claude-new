@@ -1,0 +1,117 @@
+[
+  {
+    "id": "SKU-001",
+    "name": "Samsung Galaxy S24 Ultra 256GB Titanium Black",
+    "raw_description": "Smartphone Samsung Galaxy S24 Ultra com 256GB de armazenamento, cor Titanium Black. Tela Dynamic AMOLED 2X de 6.8 polegadas, processador Snapdragon 8 Gen 3, 12GB RAM. Câmera quádrupla: 200MP principal + 12MP ultrawide + 50MP telefoto 5x + 10MP telefoto 3x. Bateria de 5000mAh com carregamento rápido 45W. S Pen incluída. Android 14 com One UI 6.1. Resistente à água IP68.",
+    "expected_attributes": {
+      "marca": "Samsung",
+      "modelo": "Galaxy S24 Ultra",
+      "capacidade_armazenamento": "256GB",
+      "cor": "Titanium Black",
+      "tamanho_tela": "6.8 polegadas",
+      "tipo_tela": "Dynamic AMOLED 2X",
+      "processador": "Snapdragon 8 Gen 3",
+      "memoria_ram": "12GB",
+      "camera_principal": "200MP",
+      "camera_ultrawide": "12MP",
+      "camera_telefoto": "50MP 5x, 10MP 3x",
+      "capacidade_bateria": "5000mAh",
+      "carregamento": "45W rápido",
+      "sistema_operacional": "Android 14",
+      "interface": "One UI 6.1",
+      "resistencia_agua": "IP68",
+      "acessorios_inclusos": "S Pen",
+      "categoria": "Smartphone",
+      "tipo_produto": "Eletrônico"
+    }
+  },
+  {
+    "id": "SKU-002",
+    "name": "Cadeira Gamer ThunderX3 TGC12 Preta/Vermelha",
+    "raw_description": "Cadeira gamer ThunderX3 modelo TGC12 nas cores preta e vermelha. Estofamento em couro sintético PU. Encosto reclinável até 180 graus. Apoio de braço 2D ajustável. Almofadas para lombar e pescoço inclusas. Base em metal com rodízios de nylon de 60mm. Suporta até 150kg. Pistão a gás classe 4. Altura ajustável do assento. Mecanismo borboleta.",
+    "expected_attributes": {
+      "marca": "ThunderX3",
+      "modelo": "TGC12",
+      "cor": "Preta/Vermelha",
+      "material_revestimento": "Couro sintético PU",
+      "angulo_reclinacao": "180 graus",
+      "tipo_apoio_braco": "2D ajustável",
+      "almofadas_inclusas": "Lombar e pescoço",
+      "material_base": "Metal",
+      "tipo_rodizio": "Nylon 60mm",
+      "peso_maximo_suportado": "150kg",
+      "tipo_pistao": "Gás classe 4",
+      "altura_ajustavel": "Sim",
+      "tipo_mecanismo": "Borboleta",
+      "categoria": "Cadeira Gamer",
+      "tipo_produto": "Móvel"
+    }
+  },
+  {
+    "id": "SKU-003",
+    "name": "Whey Protein Isolado Growth 1kg Chocolate",
+    "raw_description": "Whey Protein Isolado da marca Growth Supplements, sabor chocolate, embalagem de 1kg. 27g de proteína por dose de 30g. Baixo teor de lactose. Sem adição de açúcar. Contém BCAA naturalmente presente. 120 calorias por porção. Ideal para pós-treino. Registro no Ministério da Saúde. Produto nacional.",
+    "expected_attributes": {
+      "marca": "Growth Supplements",
+      "tipo_proteina": "Whey Protein Isolado",
+      "sabor": "Chocolate",
+      "peso_liquido": "1kg",
+      "proteina_por_dose": "27g",
+      "tamanho_dose": "30g",
+      "teor_lactose": "Baixo",
+      "acucar_adicionado": "Não",
+      "bcaa": "Naturalmente presente",
+      "calorias_por_porcao": "120 calorias",
+      "uso_recomendado": "Pós-treino",
+      "registro_saude": "Sim",
+      "origem": "Nacional",
+      "categoria": "Suplemento Alimentar",
+      "tipo_produto": "Nutrição Esportiva"
+    }
+  },
+  {
+    "id": "SKU-004",
+    "name": "Furadeira de Impacto Bosch GSB 550 RE 550W",
+    "raw_description": "Furadeira de impacto Bosch GSB 550 RE com 550W de potência. Mandril de 1/2 polegada (13mm) com chave. Velocidade variável de 0 a 2800 RPM. Torque máximo de 8.5Nm. Capacidade de perfuração: 13mm em madeira, 10mm em aço, 13mm em concreto. Função impacto com 41.600 BPM. Peso de 1.7kg. Empunhadura lateral auxiliar. Controle de profundidade. Bivolt.",
+    "expected_attributes": {
+      "marca": "Bosch",
+      "modelo": "GSB 550 RE",
+      "potencia": "550W",
+      "tipo_mandril": "1/2 polegada (13mm) com chave",
+      "velocidade_maxima": "2800 RPM",
+      "velocidade_variavel": "Sim",
+      "torque_maximo": "8.5Nm",
+      "capacidade_madeira": "13mm",
+      "capacidade_aco": "10mm",
+      "capacidade_concreto": "13mm",
+      "impactos_por_minuto": "41.600 BPM",
+      "peso": "1.7kg",
+      "acessorios_inclusos": "Empunhadura lateral, controle de profundidade",
+      "voltagem": "Bivolt",
+      "categoria": "Furadeira de Impacto",
+      "tipo_produto": "Ferramenta Elétrica"
+    }
+  },
+  {
+    "id": "SKU-005",
+    "name": "Tênis Nike Air Max 90 Masculino Branco/Preto",
+    "raw_description": "Tênis Nike Air Max 90 masculino nas cores branco e preto. Cabedal em couro e material sintético. Tecnologia Air Max visível no calcanhar. Entressola em espuma com unidade Air. Solado de borracha com padrão waffle. Palmilha removível. Fechamento em cadarço. Produto importado. Disponível do tamanho 38 ao 44.",
+    "expected_attributes": {
+      "marca": "Nike",
+      "modelo": "Air Max 90",
+      "genero": "Masculino",
+      "cor": "Branco/Preto",
+      "material_cabedal": "Couro e material sintético",
+      "tecnologia_amortecimento": "Air Max",
+      "material_entressola": "Espuma com unidade Air",
+      "material_solado": "Borracha",
+      "padrao_solado": "Waffle",
+      "palmilha_removivel": "Sim",
+      "tipo_fechamento": "Cadarço",
+      "origem": "Importado",
+      "tamanhos_disponiveis": "38 ao 44",
+      "categoria": "Tênis",
+      "tipo_produto": "Calçado Esportivo"
+    }
+  }
+]
