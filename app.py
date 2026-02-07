@@ -16,6 +16,8 @@ from src.prompts import PROMPTS
 
 load_dotenv()
 
+from src.ssl_patch import apply_ssl_patch
+
 # ---------------------------------------------------------------------------
 # Page config
 # ---------------------------------------------------------------------------
@@ -57,6 +59,19 @@ with st.sidebar:
         ["gpt-4.1-mini", "gpt-4.1-nano", "gpt-4.1", "gpt-4o", "gpt-4o-mini"],
         index=0,
     )
+
+    st.divider()
+
+    skip_ssl = st.checkbox(
+        "Desabilitar verificação SSL",
+        value=os.getenv("SKIP_SSL_VERIFY", "").lower() in ("1", "true", "yes"),
+        help="Ative se estiver em rede corporativa com proxy/firewall que intercepta HTTPS",
+    )
+    if skip_ssl:
+        os.environ["SKIP_SSL_VERIFY"] = "1"
+        apply_ssl_patch()
+    else:
+        os.environ.pop("SKIP_SSL_VERIFY", None)
 
     st.divider()
     st.markdown(
