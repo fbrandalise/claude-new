@@ -3,6 +3,7 @@ Calls the LLM to enrich product attributes using a given prompt template.
 """
 
 import json
+import httpx
 import os
 import re
 
@@ -10,7 +11,12 @@ from openai import OpenAI
 
 
 def get_client() -> OpenAI:
-    return OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+    skip_ssl = os.getenv("SKIP_SSL_VERIFY", "").lower() in ("1", "true", "yes")
+    http_client = httpx.Client(verify=not skip_ssl) if skip_ssl else None
+    return OpenAI(
+        api_key=os.environ["OPENAI_API_KEY"],
+        http_client=http_client,
+    )
 
 
 def enrich_product(
