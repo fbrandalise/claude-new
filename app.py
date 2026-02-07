@@ -6,6 +6,8 @@ enrichment, evaluated with DeepEval.
 import json
 import os
 
+os.environ["DEEPEVAL_TELEMETRY_OPT_OUT"] = "YES"
+
 import pandas as pd
 import streamlit as st
 from dotenv import load_dotenv
